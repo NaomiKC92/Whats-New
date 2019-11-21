@@ -2,7 +2,7 @@ import React from 'react';
 import './NewsContainer.css'
 import NewsArticle from '../NewsArticle/NewsArticle'
 
-const NewsContainer = ({articles}) => {
+const NewsContainer = ({ articles }) => {
   let eachArticle = articles.map( article => {
     return (
       <NewsArticle
@@ -14,6 +14,7 @@ const NewsContainer = ({articles}) => {
       />
     )
   })
+
   return (
     <div className='article-container'>
       {eachArticle}

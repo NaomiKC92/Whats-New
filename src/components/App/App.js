@@ -5,23 +5,32 @@ import health from '../../data/health'
 import science from '../../data/science'
 import technology from '../../data/technology'
 import './App.css';
-
-
+import Menu from '../Menu/Menu'
 import NewsContainer from '../NewsContainer/NewsContainer'
 
 class App extends Component {
   constructor() {
     super();
     this.state = {
-      currentPage: local
+      current: [...local],
+      local,
+      health,
+      entertainment,
+      science,
+      technology
     }
   }
 
-  render () {
+  switchTopic = (e) => {
+   this.setState({current: this.state[e.target.id]})
+  }
+
+  render() {
     return (
       <div className="app">
-        <NewsContainer 
-          articles={this.state.currentPage}
+        <Menu switchTopic={this.switchTopic}/>
+        <NewsContainer
+          articles={this.state.current}
         />
       </div>
     );
