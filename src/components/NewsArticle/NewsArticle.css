@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.news-article {
+  /* border: 1px solid red; */
+  height: 400px;
+  width: 47%;
+}
+
+.article-img {
+  height: 205px;
+  width: 100%;
+}
+
+.article-summary,
+.article-title {
+  background-color: #FFF;
+}
+
+.article-summary {
+  height: 180px;
+}
+
+.article-url {
+  background-color: #B56AF1;
+  height: 55px;
+  color: #FFF;
+}
+
+a {
+  color: #FFF;
+  font-size: 150%;
+}

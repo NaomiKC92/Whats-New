@@ -10,7 +10,7 @@ const NewsContainer = ({ articles }) => {
         headline={article.headline}
         img={article.img}
         description={article.description}
-        url={article.url}
+        url=<a href= {article.url}>Link to article --></a>
       />
     )
   })
