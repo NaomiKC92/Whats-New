@@ -5,8 +5,8 @@
 }
 
 .app {
-  display: flex;
   background: #141527;
+  display: flex;
   text-align: center;
   width: 100%;
 }

@@ -5,7 +5,6 @@
 }
 
 .news-article {
-  height: 400px;
   width: 47%;
 }
 
@@ -29,8 +28,8 @@
 
 .article-url {
   background-color: #B56AF1;
-  height: 55px;
   color: #FFF;
+  height: 55px;
 }
 
 a {
