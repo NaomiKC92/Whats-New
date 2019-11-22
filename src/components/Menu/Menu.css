@@ -25,16 +25,17 @@ h1 {
   margin: 40px auto auto 20px;
   justify-content: space-between;
   height: 350px;
+  
 }
 
-button {
+.menu-btns > button {
   background-color: #141427;
   color: #F0F0F1;
   font-size: 150%;
   border: none;
 }
 
-button:hover {
+.menu-btns > button:hover {
   background-color: #FFAE00;
   cursor: pointer;
   height: 56px;
