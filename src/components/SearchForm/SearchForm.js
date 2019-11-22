@@ -24,7 +24,6 @@ class SearchForm extends Component {
     this.resetInput();
   }
 
-
   render() {
     return (
       <form>

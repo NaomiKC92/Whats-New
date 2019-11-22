@@ -28,9 +28,7 @@ class App extends Component {
 
   filterNews = input => {
     const results = this.state.current.filter(article => article.headline.toLowerCase().includes(input))
-    console.log(this.state)
     this.setState({current: results})
-    console.log(this.state)
   }
 
   render() {
@@ -41,7 +39,7 @@ class App extends Component {
           <SearchForm filterNews={this.filterNews}/>
           <NewsContainer
           articles={this.state.current}
-        />
+          />
         </main>
       </div>
     );
