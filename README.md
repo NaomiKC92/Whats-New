@@ -1,5 +1,8 @@
 # Whats-New
 
+## Author
+Naomi Campos
+
 ### Overview
 "What's New" is a solo project introducing react and testing with enzyme. The user can  choose which news topic they want to view and search for specific news articles.
 
@@ -20,5 +23,6 @@ This application was built with :
 - You can now select a topic from the menu and filter by articles
 
 ### Images 
-![health view](./images/local.png)
+![local view](./images/local.png)
 ![health view](./images/health.png)
+
