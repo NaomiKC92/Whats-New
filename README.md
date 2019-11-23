@@ -20,4 +20,5 @@ This application was built with :
 - You can now select a topic from the menu and filter by articles
 
 ### Images 
+![health view](./images/local.png)
 ![health view](./images/health.png)
